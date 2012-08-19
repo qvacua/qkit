@@ -9,12 +9,59 @@
 /* Begin PBXBuildFile section */
 		4B5CB3DF15E0E57E00E05BD7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B5CB3DE15E0E57E00E05BD7 /* Cocoa.framework */; };
 		4B5CB3E915E0E57E00E05BD7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B5CB3E715E0E57E00E05BD7 /* InfoPlist.strings */; };
-		4B5CB3ED15E0E57E00E05BD7 /* Qkit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5CB3EC15E0E57E00E05BD7 /* Qkit.m */; };
-		4B5CB3F515E0E57E00E05BD7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B5CB3F415E0E57E00E05BD7 /* SenTestingKit.framework */; };
 		4B5CB3F615E0E57E00E05BD7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B5CB3DE15E0E57E00E05BD7 /* Cocoa.framework */; };
-		4B5CB3F915E0E57E00E05BD7 /* Qkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B5CB3DB15E0E57E00E05BD7 /* Qkit.framework */; };
 		4B5CB3FF15E0E57E00E05BD7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B5CB3FD15E0E57E00E05BD7 /* InfoPlist.strings */; };
-		4B5CB40215E0E57E00E05BD7 /* QkitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5CB40115E0E57E00E05BD7 /* QkitTests.m */; };
+		4B5CB43A15E0E7A700E05BD7 /* QObservedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5CB43815E0E7A700E05BD7 /* QObservedObject.m */; };
+		4B5CB43B15E0E7A700E05BD7 /* QObservedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5CB43815E0E7A700E05BD7 /* QObservedObject.m */; };
+		4B5CB43C15E0E7A700E05BD7 /* QObservedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B5CB43915E0E7A700E05BD7 /* QObservedObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B5CB43D15E0E80400E05BD7 /* Qkit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B5CB3EB15E0E57E00E05BD7 /* Qkit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B5CB44C15E0E91200E05BD7 /* QGeometryUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B5CB44A15E0E91200E05BD7 /* QGeometryUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B5CB44D15E0E91200E05BD7 /* QLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B5CB44B15E0E91200E05BD7 /* QLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B5CB45615E0EA4500E05BD7 /* NSImage+Q.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B5CB44E15E0EA4500E05BD7 /* NSImage+Q.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B5CB45715E0EA4500E05BD7 /* NSImage+Q.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5CB44F15E0EA4500E05BD7 /* NSImage+Q.m */; };
+		4B5CB45815E0EA4500E05BD7 /* NSImage+Q.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5CB44F15E0EA4500E05BD7 /* NSImage+Q.m */; };
+		4B5CB45915E0EA4500E05BD7 /* NSAttributedString+Q.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B5CB45015E0EA4500E05BD7 /* NSAttributedString+Q.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B5CB45A15E0EA4500E05BD7 /* NSAttributedString+Q.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5CB45115E0EA4500E05BD7 /* NSAttributedString+Q.m */; };
+		4B5CB45B15E0EA4500E05BD7 /* NSAttributedString+Q.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5CB45115E0EA4500E05BD7 /* NSAttributedString+Q.m */; };
+		4B5CB45C15E0EA4500E05BD7 /* NSString+Q.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5CB45215E0EA4500E05BD7 /* NSString+Q.m */; };
+		4B5CB45D15E0EA4500E05BD7 /* NSString+Q.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5CB45215E0EA4500E05BD7 /* NSString+Q.m */; };
+		4B5CB45E15E0EA4500E05BD7 /* NSString+Q.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B5CB45315E0EA4500E05BD7 /* NSString+Q.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B5CB45F15E0EA4500E05BD7 /* NSMutableArray+Q.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5CB45415E0EA4500E05BD7 /* NSMutableArray+Q.m */; };
+		4B5CB46015E0EA4500E05BD7 /* NSMutableArray+Q.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5CB45415E0EA4500E05BD7 /* NSMutableArray+Q.m */; };
+		4B5CB46115E0EA4500E05BD7 /* NSMutableArray+Q.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B5CB45515E0EA4500E05BD7 /* NSMutableArray+Q.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B5CB46415E0EAE800E05BD7 /* QShadowedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5CB46215E0EAE800E05BD7 /* QShadowedView.m */; };
+		4B5CB46515E0EAE800E05BD7 /* QShadowedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5CB46215E0EAE800E05BD7 /* QShadowedView.m */; };
+		4B5CB46615E0EAE800E05BD7 /* QShadowedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B5CB46315E0EAE800E05BD7 /* QShadowedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B5CB4AF15E0EED200E05BD7 /* ObservedObjectTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5CB4A115E0EED200E05BD7 /* ObservedObjectTest.m */; };
+		4B5CB4B015E0EED200E05BD7 /* ReflectionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5CB4A215E0EED200E05BD7 /* ReflectionTest.m */; };
+		4B5CB4B115E0EED200E05BD7 /* NumberMatchersTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5CB4A315E0EED200E05BD7 /* NumberMatchersTest.m */; };
+		4B5CB4B215E0EED200E05BD7 /* DictionaryMatchersTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5CB4A415E0EED200E05BD7 /* DictionaryMatchersTest.m */; };
+		4B5CB4B515E0EED200E05BD7 /* DummyObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5CB4A915E0EED200E05BD7 /* DummyObserver.m */; };
+		4B5CB4C115E0F04700E05BD7 /* OCHamcrest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B5CB4BF15E0F04700E05BD7 /* OCHamcrest.framework */; };
+		4B5CB4C215E0F04700E05BD7 /* OCMockito.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B5CB4C015E0F04700E05BD7 /* OCMockito.framework */; };
+		4B5CB4D815E0F3D300E05BD7 /* NSAttributedStringCategoryTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5CB4D515E0F3D300E05BD7 /* NSAttributedStringCategoryTest.m */; };
+		4B5CB4D915E0F3D300E05BD7 /* NSMutableArrayCategoryTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5CB4D615E0F3D300E05BD7 /* NSMutableArrayCategoryTest.m */; };
+		4B5CB4DA15E0F3D300E05BD7 /* NSCategoryTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5CB4D715E0F3D300E05BD7 /* NSCategoryTest.m */; };
+		4B5CB4DD15E0F3DF00E05BD7 /* GeometryUtilsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5CB4DC15E0F3DF00E05BD7 /* GeometryUtilsTest.m */; };
+		4B5CB4F915E1069400E05BD7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B5CB3DE15E0E57E00E05BD7 /* Cocoa.framework */; };
+		4B5CB50315E1069400E05BD7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B5CB50115E1069400E05BD7 /* InfoPlist.strings */; };
+		4B5CB51E15E1076B00E05BD7 /* ArgumentCaptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B5CB51415E1076B00E05BD7 /* ArgumentCaptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B5CB51F15E1076B00E05BD7 /* ArgumentCaptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5CB51515E1076B00E05BD7 /* ArgumentCaptor.m */; };
+		4B5CB52015E1076B00E05BD7 /* ArgumentCaptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5CB51515E1076B00E05BD7 /* ArgumentCaptor.m */; };
+		4B5CB52115E1076B00E05BD7 /* DictionaryMatchers.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B5CB51615E1076B00E05BD7 /* DictionaryMatchers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B5CB52215E1076B00E05BD7 /* DictionaryMatchers.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5CB51715E1076B00E05BD7 /* DictionaryMatchers.m */; };
+		4B5CB52315E1076B00E05BD7 /* DictionaryMatchers.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5CB51715E1076B00E05BD7 /* DictionaryMatchers.m */; };
+		4B5CB52415E1076B00E05BD7 /* NSObject+Reflection.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B5CB51815E1076B00E05BD7 /* NSObject+Reflection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B5CB52515E1076B00E05BD7 /* NSObject+Reflection.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5CB51915E1076B00E05BD7 /* NSObject+Reflection.m */; };
+		4B5CB52615E1076B00E05BD7 /* NSObject+Reflection.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5CB51915E1076B00E05BD7 /* NSObject+Reflection.m */; };
+		4B5CB52715E1076B00E05BD7 /* NumberMatchers.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B5CB51A15E1076B00E05BD7 /* NumberMatchers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B5CB52815E1076B00E05BD7 /* NumberMatchers.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5CB51B15E1076B00E05BD7 /* NumberMatchers.m */; };
+		4B5CB52915E1076B00E05BD7 /* NumberMatchers.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5CB51B15E1076B00E05BD7 /* NumberMatchers.m */; };
+		4B5CB52E15E107A700E05BD7 /* QTestKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B5CB52D15E107A700E05BD7 /* QTestKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B5CB53015E107EE00E05BD7 /* OCHamcrest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B5CB4BF15E0F04700E05BD7 /* OCHamcrest.framework */; };
+		4B5CB53115E107EE00E05BD7 /* OCMockito.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B5CB4C015E0F04700E05BD7 /* OCMockito.framework */; };
+		4B5CB57F15E1106A00E05BD7 /* QBaseTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5CB57E15E1106A00E05BD7 /* QBaseTestCase.m */; };
+		4B5CB67715E11DD600E05BD7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B5CB3F415E0E57E00E05BD7 /* SenTestingKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,20 +77,58 @@
 /* Begin PBXFileReference section */
 		4B5CB3DB15E0E57E00E05BD7 /* Qkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Qkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B5CB3DE15E0E57E00E05BD7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		4B5CB3E115E0E57E00E05BD7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		4B5CB3E215E0E57E00E05BD7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		4B5CB3E315E0E57E00E05BD7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4B5CB3E615E0E57E00E05BD7 /* Qkit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Qkit-Info.plist"; sourceTree = "<group>"; };
 		4B5CB3E815E0E57E00E05BD7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4B5CB3EA15E0E57E00E05BD7 /* Qkit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Qkit-Prefix.pch"; sourceTree = "<group>"; };
 		4B5CB3EB15E0E57E00E05BD7 /* Qkit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Qkit.h; sourceTree = "<group>"; };
-		4B5CB3EC15E0E57E00E05BD7 /* Qkit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Qkit.m; sourceTree = "<group>"; };
 		4B5CB3F315E0E57E00E05BD7 /* QkitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QkitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B5CB3F415E0E57E00E05BD7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		4B5CB3FC15E0E57E00E05BD7 /* QkitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QkitTests-Info.plist"; sourceTree = "<group>"; };
 		4B5CB3FE15E0E57E00E05BD7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4B5CB40015E0E57E00E05BD7 /* QkitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QkitTests.h; sourceTree = "<group>"; };
-		4B5CB40115E0E57E00E05BD7 /* QkitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QkitTests.m; sourceTree = "<group>"; };
+		4B5CB43815E0E7A700E05BD7 /* QObservedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QObservedObject.m; sourceTree = "<group>"; };
+		4B5CB43915E0E7A700E05BD7 /* QObservedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QObservedObject.h; sourceTree = "<group>"; };
+		4B5CB44A15E0E91200E05BD7 /* QGeometryUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGeometryUtils.h; sourceTree = "<group>"; };
+		4B5CB44B15E0E91200E05BD7 /* QLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLog.h; sourceTree = "<group>"; };
+		4B5CB44E15E0EA4500E05BD7 /* NSImage+Q.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+Q.h"; sourceTree = "<group>"; };
+		4B5CB44F15E0EA4500E05BD7 /* NSImage+Q.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+Q.m"; sourceTree = "<group>"; };
+		4B5CB45015E0EA4500E05BD7 /* NSAttributedString+Q.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+Q.h"; sourceTree = "<group>"; };
+		4B5CB45115E0EA4500E05BD7 /* NSAttributedString+Q.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+Q.m"; sourceTree = "<group>"; };
+		4B5CB45215E0EA4500E05BD7 /* NSString+Q.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Q.m"; sourceTree = "<group>"; };
+		4B5CB45315E0EA4500E05BD7 /* NSString+Q.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Q.h"; sourceTree = "<group>"; };
+		4B5CB45415E0EA4500E05BD7 /* NSMutableArray+Q.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Q.m"; sourceTree = "<group>"; };
+		4B5CB45515E0EA4500E05BD7 /* NSMutableArray+Q.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Q.h"; sourceTree = "<group>"; };
+		4B5CB46215E0EAE800E05BD7 /* QShadowedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QShadowedView.m; sourceTree = "<group>"; };
+		4B5CB46315E0EAE800E05BD7 /* QShadowedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QShadowedView.h; sourceTree = "<group>"; };
+		4B5CB4A115E0EED200E05BD7 /* ObservedObjectTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObservedObjectTest.m; sourceTree = "<group>"; };
+		4B5CB4A215E0EED200E05BD7 /* ReflectionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReflectionTest.m; sourceTree = "<group>"; };
+		4B5CB4A315E0EED200E05BD7 /* NumberMatchersTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberMatchersTest.m; sourceTree = "<group>"; };
+		4B5CB4A415E0EED200E05BD7 /* DictionaryMatchersTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DictionaryMatchersTest.m; sourceTree = "<group>"; };
+		4B5CB4A915E0EED200E05BD7 /* DummyObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DummyObserver.m; sourceTree = "<group>"; };
+		4B5CB4AA15E0EED200E05BD7 /* DummyObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DummyObserver.h; sourceTree = "<group>"; };
+		4B5CB4BF15E0F04700E05BD7 /* OCHamcrest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCHamcrest.framework; path = /Library/Frameworks/OCHamcrest.framework; sourceTree = "<absolute>"; };
+		4B5CB4C015E0F04700E05BD7 /* OCMockito.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCMockito.framework; path = /Library/Frameworks/OCMockito.framework; sourceTree = "<absolute>"; };
+		4B5CB4D515E0F3D300E05BD7 /* NSAttributedStringCategoryTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSAttributedStringCategoryTest.m; sourceTree = "<group>"; };
+		4B5CB4D615E0F3D300E05BD7 /* NSMutableArrayCategoryTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSMutableArrayCategoryTest.m; sourceTree = "<group>"; };
+		4B5CB4D715E0F3D300E05BD7 /* NSCategoryTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSCategoryTest.m; sourceTree = "<group>"; };
+		4B5CB4DC15E0F3DF00E05BD7 /* GeometryUtilsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeometryUtilsTest.m; sourceTree = "<group>"; };
+		4B5CB4F815E1069400E05BD7 /* QTestKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QTestKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5CB4FB15E1069400E05BD7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		4B5CB4FC15E1069400E05BD7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4B5CB4FD15E1069400E05BD7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4B5CB50015E1069400E05BD7 /* QTestKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QTestKit-Info.plist"; sourceTree = "<group>"; };
+		4B5CB50215E1069400E05BD7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4B5CB50415E1069400E05BD7 /* QTestKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QTestKit-Prefix.pch"; sourceTree = "<group>"; };
+		4B5CB51415E1076B00E05BD7 /* ArgumentCaptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArgumentCaptor.h; sourceTree = "<group>"; };
+		4B5CB51515E1076B00E05BD7 /* ArgumentCaptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArgumentCaptor.m; sourceTree = "<group>"; };
+		4B5CB51615E1076B00E05BD7 /* DictionaryMatchers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DictionaryMatchers.h; sourceTree = "<group>"; };
+		4B5CB51715E1076B00E05BD7 /* DictionaryMatchers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DictionaryMatchers.m; sourceTree = "<group>"; };
+		4B5CB51815E1076B00E05BD7 /* NSObject+Reflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Reflection.h"; sourceTree = "<group>"; };
+		4B5CB51915E1076B00E05BD7 /* NSObject+Reflection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Reflection.m"; sourceTree = "<group>"; };
+		4B5CB51A15E1076B00E05BD7 /* NumberMatchers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberMatchers.h; sourceTree = "<group>"; };
+		4B5CB51B15E1076B00E05BD7 /* NumberMatchers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberMatchers.m; sourceTree = "<group>"; };
+		4B5CB52D15E107A700E05BD7 /* QTestKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTestKit.h; sourceTree = "<group>"; };
+		4B5CB57D15E1106A00E05BD7 /* QBaseTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBaseTestCase.h; sourceTree = "<group>"; };
+		4B5CB57E15E1106A00E05BD7 /* QBaseTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBaseTestCase.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,20 +144,74 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B5CB3F515E0E57E00E05BD7 /* SenTestingKit.framework in Frameworks */,
 				4B5CB3F615E0E57E00E05BD7 /* Cocoa.framework in Frameworks */,
-				4B5CB3F915E0E57E00E05BD7 /* Qkit.framework in Frameworks */,
+				4B5CB67715E11DD600E05BD7 /* SenTestingKit.framework in Frameworks */,
+				4B5CB4C115E0F04700E05BD7 /* OCHamcrest.framework in Frameworks */,
+				4B5CB4C215E0F04700E05BD7 /* OCMockito.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B5CB4F415E1069400E05BD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B5CB4F915E1069400E05BD7 /* Cocoa.framework in Frameworks */,
+				4B5CB53015E107EE00E05BD7 /* OCHamcrest.framework in Frameworks */,
+				4B5CB53115E107EE00E05BD7 /* OCMockito.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1929B041BBC8EFC377D87F71 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4B5CB43815E0E7A700E05BD7 /* QObservedObject.m */,
+				4B5CB43915E0E7A700E05BD7 /* QObservedObject.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1929B9F8EA36D8BE98180D57 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				4B5CB44B15E0E91200E05BD7 /* QLog.h */,
+				4B5CB44A15E0E91200E05BD7 /* QGeometryUtils.h */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		1929BB0F9706722E443B1D7B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4B5CB46215E0EAE800E05BD7 /* QShadowedView.m */,
+				4B5CB46315E0EAE800E05BD7 /* QShadowedView.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1929BF11F32AAC865500598B /* Cocoa Categories */ = {
+			isa = PBXGroup;
+			children = (
+				4B5CB44E15E0EA4500E05BD7 /* NSImage+Q.h */,
+				4B5CB45515E0EA4500E05BD7 /* NSMutableArray+Q.h */,
+				4B5CB45015E0EA4500E05BD7 /* NSAttributedString+Q.h */,
+				4B5CB44F15E0EA4500E05BD7 /* NSImage+Q.m */,
+				4B5CB45315E0EA4500E05BD7 /* NSString+Q.h */,
+				4B5CB45115E0EA4500E05BD7 /* NSAttributedString+Q.m */,
+				4B5CB45215E0EA4500E05BD7 /* NSString+Q.m */,
+				4B5CB45415E0EA4500E05BD7 /* NSMutableArray+Q.m */,
+			);
+			path = "Cocoa Categories";
+			sourceTree = "<group>";
+		};
 		4B5CB3CF15E0E57E00E05BD7 = {
 			isa = PBXGroup;
 			children = (
 				4B5CB3E415E0E57E00E05BD7 /* Qkit */,
 				4B5CB3FA15E0E57E00E05BD7 /* QkitTests */,
+				4B5CB4FE15E1069400E05BD7 /* QTestKit */,
 				4B5CB3DD15E0E57E00E05BD7 /* Frameworks */,
 				4B5CB3DC15E0E57E00E05BD7 /* Products */,
 			);
@@ -83,6 +222,7 @@
 			children = (
 				4B5CB3DB15E0E57E00E05BD7 /* Qkit.framework */,
 				4B5CB3F315E0E57E00E05BD7 /* QkitTests.octest */,
+				4B5CB4F815E1069400E05BD7 /* QTestKit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -91,28 +231,21 @@
 			isa = PBXGroup;
 			children = (
 				4B5CB3DE15E0E57E00E05BD7 /* Cocoa.framework */,
-				4B5CB3F415E0E57E00E05BD7 /* SenTestingKit.framework */,
-				4B5CB3E015E0E57E00E05BD7 /* Other Frameworks */,
+				4B5CB43715E0E77600E05BD7 /* Testing */,
+				4B5CB4FA15E1069400E05BD7 /* Other Frameworks */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		4B5CB3E015E0E57E00E05BD7 /* Other Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				4B5CB3E115E0E57E00E05BD7 /* AppKit.framework */,
-				4B5CB3E215E0E57E00E05BD7 /* CoreData.framework */,
-				4B5CB3E315E0E57E00E05BD7 /* Foundation.framework */,
-			);
-			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
 		4B5CB3E415E0E57E00E05BD7 /* Qkit */ = {
 			isa = PBXGroup;
 			children = (
 				4B5CB3EB15E0E57E00E05BD7 /* Qkit.h */,
-				4B5CB3EC15E0E57E00E05BD7 /* Qkit.m */,
 				4B5CB3E515E0E57E00E05BD7 /* Supporting Files */,
+				1929BF11F32AAC865500598B /* Cocoa Categories */,
+				1929B041BBC8EFC377D87F71 /* Model */,
+				1929B9F8EA36D8BE98180D57 /* Utilities */,
+				1929BB0F9706722E443B1D7B /* View */,
 			);
 			path = Qkit;
 			sourceTree = "<group>";
@@ -130,8 +263,18 @@
 		4B5CB3FA15E0E57E00E05BD7 /* QkitTests */ = {
 			isa = PBXGroup;
 			children = (
-				4B5CB40015E0E57E00E05BD7 /* QkitTests.h */,
-				4B5CB40115E0E57E00E05BD7 /* QkitTests.m */,
+				4B5CB57D15E1106A00E05BD7 /* QBaseTestCase.h */,
+				4B5CB57E15E1106A00E05BD7 /* QBaseTestCase.m */,
+				4B5CB4DC15E0F3DF00E05BD7 /* GeometryUtilsTest.m */,
+				4B5CB4D515E0F3D300E05BD7 /* NSAttributedStringCategoryTest.m */,
+				4B5CB4D615E0F3D300E05BD7 /* NSMutableArrayCategoryTest.m */,
+				4B5CB4D715E0F3D300E05BD7 /* NSCategoryTest.m */,
+				4B5CB4A115E0EED200E05BD7 /* ObservedObjectTest.m */,
+				4B5CB4A215E0EED200E05BD7 /* ReflectionTest.m */,
+				4B5CB4A315E0EED200E05BD7 /* NumberMatchersTest.m */,
+				4B5CB4A415E0EED200E05BD7 /* DictionaryMatchersTest.m */,
+				4B5CB4A915E0EED200E05BD7 /* DummyObserver.m */,
+				4B5CB4AA15E0EED200E05BD7 /* DummyObserver.h */,
 				4B5CB3FB15E0E57E00E05BD7 /* Supporting Files */,
 			);
 			path = QkitTests;
@@ -146,6 +289,53 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		4B5CB43715E0E77600E05BD7 /* Testing */ = {
+			isa = PBXGroup;
+			children = (
+				4B5CB4BF15E0F04700E05BD7 /* OCHamcrest.framework */,
+				4B5CB4C015E0F04700E05BD7 /* OCMockito.framework */,
+				4B5CB3F415E0E57E00E05BD7 /* SenTestingKit.framework */,
+			);
+			name = Testing;
+			sourceTree = "<group>";
+		};
+		4B5CB4FA15E1069400E05BD7 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B5CB4FB15E1069400E05BD7 /* AppKit.framework */,
+				4B5CB4FC15E1069400E05BD7 /* CoreData.framework */,
+				4B5CB4FD15E1069400E05BD7 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		4B5CB4FE15E1069400E05BD7 /* QTestKit */ = {
+			isa = PBXGroup;
+			children = (
+				4B5CB52D15E107A700E05BD7 /* QTestKit.h */,
+				4B5CB51415E1076B00E05BD7 /* ArgumentCaptor.h */,
+				4B5CB51515E1076B00E05BD7 /* ArgumentCaptor.m */,
+				4B5CB51615E1076B00E05BD7 /* DictionaryMatchers.h */,
+				4B5CB51715E1076B00E05BD7 /* DictionaryMatchers.m */,
+				4B5CB51815E1076B00E05BD7 /* NSObject+Reflection.h */,
+				4B5CB51915E1076B00E05BD7 /* NSObject+Reflection.m */,
+				4B5CB51A15E1076B00E05BD7 /* NumberMatchers.h */,
+				4B5CB51B15E1076B00E05BD7 /* NumberMatchers.m */,
+				4B5CB4FF15E1069400E05BD7 /* Supporting Files */,
+			);
+			path = QTestKit;
+			sourceTree = "<group>";
+		};
+		4B5CB4FF15E1069400E05BD7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B5CB50015E1069400E05BD7 /* QTestKit-Info.plist */,
+				4B5CB50115E1069400E05BD7 /* InfoPlist.strings */,
+				4B5CB50415E1069400E05BD7 /* QTestKit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -153,6 +343,27 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B5CB43D15E0E80400E05BD7 /* Qkit.h in Headers */,
+				4B5CB44D15E0E91200E05BD7 /* QLog.h in Headers */,
+				4B5CB44C15E0E91200E05BD7 /* QGeometryUtils.h in Headers */,
+				4B5CB45615E0EA4500E05BD7 /* NSImage+Q.h in Headers */,
+				4B5CB45915E0EA4500E05BD7 /* NSAttributedString+Q.h in Headers */,
+				4B5CB45E15E0EA4500E05BD7 /* NSString+Q.h in Headers */,
+				4B5CB46615E0EAE800E05BD7 /* QShadowedView.h in Headers */,
+				4B5CB46115E0EA4500E05BD7 /* NSMutableArray+Q.h in Headers */,
+				4B5CB43C15E0E7A700E05BD7 /* QObservedObject.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B5CB4F515E1069400E05BD7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B5CB52E15E107A700E05BD7 /* QTestKit.h in Headers */,
+				4B5CB51E15E1076B00E05BD7 /* ArgumentCaptor.h in Headers */,
+				4B5CB52115E1076B00E05BD7 /* DictionaryMatchers.h in Headers */,
+				4B5CB52415E1076B00E05BD7 /* NSObject+Reflection.h in Headers */,
+				4B5CB52715E1076B00E05BD7 /* NumberMatchers.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +407,24 @@
 			productReference = 4B5CB3F315E0E57E00E05BD7 /* QkitTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
+		4B5CB4F715E1069400E05BD7 /* QTestKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B5CB50A15E1069400E05BD7 /* Build configuration list for PBXNativeTarget "QTestKit" */;
+			buildPhases = (
+				4B5CB4F315E1069400E05BD7 /* Sources */,
+				4B5CB4F415E1069400E05BD7 /* Frameworks */,
+				4B5CB4F515E1069400E05BD7 /* Headers */,
+				4B5CB4F615E1069400E05BD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QTestKit;
+			productName = QTestKit;
+			productReference = 4B5CB4F815E1069400E05BD7 /* QTestKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -218,6 +447,7 @@
 			projectRoot = "";
 			targets = (
 				4B5CB3DA15E0E57E00E05BD7 /* Qkit */,
+				4B5CB4F715E1069400E05BD7 /* QTestKit */,
 				4B5CB3F215E0E57E00E05BD7 /* QkitTests */,
 			);
 		};
@@ -237,6 +467,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B5CB3FF15E0E57E00E05BD7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B5CB4F615E1069400E05BD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B5CB50315E1069400E05BD7 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,7 +501,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B5CB3ED15E0E57E00E05BD7 /* Qkit.m in Sources */,
+				4B5CB43A15E0E7A700E05BD7 /* QObservedObject.m in Sources */,
+				4B5CB45715E0EA4500E05BD7 /* NSImage+Q.m in Sources */,
+				4B5CB45A15E0EA4500E05BD7 /* NSAttributedString+Q.m in Sources */,
+				4B5CB45C15E0EA4500E05BD7 /* NSString+Q.m in Sources */,
+				4B5CB45F15E0EA4500E05BD7 /* NSMutableArray+Q.m in Sources */,
+				4B5CB46415E0EAE800E05BD7 /* QShadowedView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +514,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B5CB40215E0E57E00E05BD7 /* QkitTests.m in Sources */,
+				4B5CB43B15E0E7A700E05BD7 /* QObservedObject.m in Sources */,
+				4B5CB45815E0EA4500E05BD7 /* NSImage+Q.m in Sources */,
+				4B5CB45B15E0EA4500E05BD7 /* NSAttributedString+Q.m in Sources */,
+				4B5CB45D15E0EA4500E05BD7 /* NSString+Q.m in Sources */,
+				4B5CB46015E0EA4500E05BD7 /* NSMutableArray+Q.m in Sources */,
+				4B5CB46515E0EAE800E05BD7 /* QShadowedView.m in Sources */,
+				4B5CB4AF15E0EED200E05BD7 /* ObservedObjectTest.m in Sources */,
+				4B5CB4B015E0EED200E05BD7 /* ReflectionTest.m in Sources */,
+				4B5CB4B115E0EED200E05BD7 /* NumberMatchersTest.m in Sources */,
+				4B5CB4B215E0EED200E05BD7 /* DictionaryMatchersTest.m in Sources */,
+				4B5CB4B515E0EED200E05BD7 /* DummyObserver.m in Sources */,
+				4B5CB4D815E0F3D300E05BD7 /* NSAttributedStringCategoryTest.m in Sources */,
+				4B5CB4D915E0F3D300E05BD7 /* NSMutableArrayCategoryTest.m in Sources */,
+				4B5CB4DA15E0F3D300E05BD7 /* NSCategoryTest.m in Sources */,
+				4B5CB4DD15E0F3DF00E05BD7 /* GeometryUtilsTest.m in Sources */,
+				4B5CB51F15E1076B00E05BD7 /* ArgumentCaptor.m in Sources */,
+				4B5CB52215E1076B00E05BD7 /* DictionaryMatchers.m in Sources */,
+				4B5CB52515E1076B00E05BD7 /* NSObject+Reflection.m in Sources */,
+				4B5CB52815E1076B00E05BD7 /* NumberMatchers.m in Sources */,
+				4B5CB57F15E1106A00E05BD7 /* QBaseTestCase.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B5CB4F315E1069400E05BD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B5CB52015E1076B00E05BD7 /* ArgumentCaptor.m in Sources */,
+				4B5CB52315E1076B00E05BD7 /* DictionaryMatchers.m in Sources */,
+				4B5CB52615E1076B00E05BD7 /* NSObject+Reflection.m in Sources */,
+				4B5CB52915E1076B00E05BD7 /* NumberMatchers.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +575,14 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
+		4B5CB50115E1069400E05BD7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B5CB50215E1069400E05BD7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -327,9 +608,10 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = macosx10.7;
+				VALID_ARCHS = x86_64;
 			};
 			name = Debug;
 		};
@@ -349,8 +631,9 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				SDKROOT = macosx;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx10.7;
+				VALID_ARCHS = x86_64;
 			};
 			name = Release;
 		};
@@ -360,6 +643,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = "/Library/Frameworks/**";
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Qkit/Qkit-Prefix.pch";
@@ -375,6 +659,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = "/Library/Frameworks/**";
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Qkit/Qkit-Prefix.pch";
@@ -388,7 +673,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"\"/Library/Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Qkit/Qkit-Prefix.pch";
 				INFOPLIST_FILE = "QkitTests/QkitTests-Info.plist";
@@ -401,12 +689,60 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"\"/Library/Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Qkit/Qkit-Prefix.pch";
 				INFOPLIST_FILE = "QkitTests/QkitTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_AFTER_BUILD = YES;
 				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		4B5CB50815E1069400E05BD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+					"\"/Library/Frameworks\"",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QTestKit/QTestKit-Prefix.pch";
+				INFOPLIST_FILE = "QTestKit/QTestKit-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.7;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		4B5CB50915E1069400E05BD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+					"\"/Library/Frameworks\"",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QTestKit/QTestKit-Prefix.pch";
+				INFOPLIST_FILE = "QTestKit/QTestKit-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.7;
+				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
 		};
@@ -429,6 +765,7 @@
 				4B5CB40715E0E57E00E05BD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4B5CB40815E0E57E00E05BD7 /* Build configuration list for PBXNativeTarget "QkitTests" */ = {
 			isa = XCConfigurationList;
@@ -437,6 +774,16 @@
 				4B5CB40A15E0E57E00E05BD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B5CB50A15E1069400E05BD7 /* Build configuration list for PBXNativeTarget "QTestKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B5CB50815E1069400E05BD7 /* Debug */,
+				4B5CB50915E1069400E05BD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
