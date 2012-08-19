@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B5CB3DF15E0E57E00E05BD7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B5CB3DE15E0E57E00E05BD7 /* Cocoa.framework */; };
+		4B5CB3E915E0E57E00E05BD7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B5CB3E715E0E57E00E05BD7 /* InfoPlist.strings */; };
+		4B5CB3ED15E0E57E00E05BD7 /* Qkit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5CB3EC15E0E57E00E05BD7 /* Qkit.m */; };
+		4B5CB3F515E0E57E00E05BD7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B5CB3F415E0E57E00E05BD7 /* SenTestingKit.framework */; };
+		4B5CB3F615E0E57E00E05BD7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B5CB3DE15E0E57E00E05BD7 /* Cocoa.framework */; };
+		4B5CB3F915E0E57E00E05BD7 /* Qkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B5CB3DB15E0E57E00E05BD7 /* Qkit.framework */; };
+		4B5CB3FF15E0E57E00E05BD7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B5CB3FD15E0E57E00E05BD7 /* InfoPlist.strings */; };
+		4B5CB40215E0E57E00E05BD7 /* QkitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5CB40115E0E57E00E05BD7 /* QkitTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B5CB3F715E0E57E00E05BD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B5CB3D115E0E57E00E05BD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B5CB3DA15E0E57E00E05BD7;
+			remoteInfo = Qkit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B5CB3DB15E0E57E00E05BD7 /* Qkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Qkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5CB3DE15E0E57E00E05BD7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4B5CB3E115E0E57E00E05BD7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		4B5CB3E215E0E57E00E05BD7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4B5CB3E315E0E57E00E05BD7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4B5CB3E615E0E57E00E05BD7 /* Qkit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Qkit-Info.plist"; sourceTree = "<group>"; };
+		4B5CB3E815E0E57E00E05BD7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4B5CB3EA15E0E57E00E05BD7 /* Qkit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Qkit-Prefix.pch"; sourceTree = "<group>"; };
+		4B5CB3EB15E0E57E00E05BD7 /* Qkit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Qkit.h; sourceTree = "<group>"; };
+		4B5CB3EC15E0E57E00E05BD7 /* Qkit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Qkit.m; sourceTree = "<group>"; };
+		4B5CB3F315E0E57E00E05BD7 /* QkitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QkitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5CB3F415E0E57E00E05BD7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		4B5CB3FC15E0E57E00E05BD7 /* QkitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QkitTests-Info.plist"; sourceTree = "<group>"; };
+		4B5CB3FE15E0E57E00E05BD7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4B5CB40015E0E57E00E05BD7 /* QkitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QkitTests.h; sourceTree = "<group>"; };
+		4B5CB40115E0E57E00E05BD7 /* QkitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QkitTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B5CB3D715E0E57E00E05BD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B5CB3DF15E0E57E00E05BD7 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B5CB3EF15E0E57E00E05BD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B5CB3F515E0E57E00E05BD7 /* SenTestingKit.framework in Frameworks */,
+				4B5CB3F615E0E57E00E05BD7 /* Cocoa.framework in Frameworks */,
+				4B5CB3F915E0E57E00E05BD7 /* Qkit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B5CB3CF15E0E57E00E05BD7 = {
+			isa = PBXGroup;
+			children = (
+				4B5CB3E415E0E57E00E05BD7 /* Qkit */,
+				4B5CB3FA15E0E57E00E05BD7 /* QkitTests */,
+				4B5CB3DD15E0E57E00E05BD7 /* Frameworks */,
+				4B5CB3DC15E0E57E00E05BD7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B5CB3DC15E0E57E00E05BD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B5CB3DB15E0E57E00E05BD7 /* Qkit.framework */,
+				4B5CB3F315E0E57E00E05BD7 /* QkitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B5CB3DD15E0E57E00E05BD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B5CB3DE15E0E57E00E05BD7 /* Cocoa.framework */,
+				4B5CB3F415E0E57E00E05BD7 /* SenTestingKit.framework */,
+				4B5CB3E015E0E57E00E05BD7 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B5CB3E015E0E57E00E05BD7 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B5CB3E115E0E57E00E05BD7 /* AppKit.framework */,
+				4B5CB3E215E0E57E00E05BD7 /* CoreData.framework */,
+				4B5CB3E315E0E57E00E05BD7 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		4B5CB3E415E0E57E00E05BD7 /* Qkit */ = {
+			isa = PBXGroup;
+			children = (
+				4B5CB3EB15E0E57E00E05BD7 /* Qkit.h */,
+				4B5CB3EC15E0E57E00E05BD7 /* Qkit.m */,
+				4B5CB3E515E0E57E00E05BD7 /* Supporting Files */,
+			);
+			path = Qkit;
+			sourceTree = "<group>";
+		};
+		4B5CB3E515E0E57E00E05BD7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B5CB3E615E0E57E00E05BD7 /* Qkit-Info.plist */,
+				4B5CB3E715E0E57E00E05BD7 /* InfoPlist.strings */,
+				4B5CB3EA15E0E57E00E05BD7 /* Qkit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4B5CB3FA15E0E57E00E05BD7 /* QkitTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B5CB40015E0E57E00E05BD7 /* QkitTests.h */,
+				4B5CB40115E0E57E00E05BD7 /* QkitTests.m */,
+				4B5CB3FB15E0E57E00E05BD7 /* Supporting Files */,
+			);
+			path = QkitTests;
+			sourceTree = "<group>";
+		};
+		4B5CB3FB15E0E57E00E05BD7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B5CB3FC15E0E57E00E05BD7 /* QkitTests-Info.plist */,
+				4B5CB3FD15E0E57E00E05BD7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4B5CB3D815E0E57E00E05BD7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4B5CB3DA15E0E57E00E05BD7 /* Qkit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B5CB40515E0E57E00E05BD7 /* Build configuration list for PBXNativeTarget "Qkit" */;
+			buildPhases = (
+				4B5CB3D615E0E57E00E05BD7 /* Sources */,
+				4B5CB3D715E0E57E00E05BD7 /* Frameworks */,
+				4B5CB3D815E0E57E00E05BD7 /* Headers */,
+				4B5CB3D915E0E57E00E05BD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Qkit;
+			productName = Qkit;
+			productReference = 4B5CB3DB15E0E57E00E05BD7 /* Qkit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4B5CB3F215E0E57E00E05BD7 /* QkitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B5CB40815E0E57E00E05BD7 /* Build configuration list for PBXNativeTarget "QkitTests" */;
+			buildPhases = (
+				4B5CB3EE15E0E57E00E05BD7 /* Sources */,
+				4B5CB3EF15E0E57E00E05BD7 /* Frameworks */,
+				4B5CB3F015E0E57E00E05BD7 /* Resources */,
+				4B5CB3F115E0E57E00E05BD7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B5CB3F815E0E57E00E05BD7 /* PBXTargetDependency */,
+			);
+			name = QkitTests;
+			productName = QkitTests;
+			productReference = 4B5CB3F315E0E57E00E05BD7 /* QkitTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B5CB3D115E0E57E00E05BD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Tae Won Ha";
+			};
+			buildConfigurationList = 4B5CB3D415E0E57E00E05BD7 /* Build configuration list for PBXProject "Qkit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4B5CB3CF15E0E57E00E05BD7;
+			productRefGroup = 4B5CB3DC15E0E57E00E05BD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B5CB3DA15E0E57E00E05BD7 /* Qkit */,
+				4B5CB3F215E0E57E00E05BD7 /* QkitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B5CB3D915E0E57E00E05BD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B5CB3E915E0E57E00E05BD7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B5CB3F015E0E57E00E05BD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B5CB3FF15E0E57E00E05BD7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4B5CB3F115E0E57E00E05BD7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B5CB3D615E0E57E00E05BD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B5CB3ED15E0E57E00E05BD7 /* Qkit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B5CB3EE15E0E57E00E05BD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B5CB40215E0E57E00E05BD7 /* QkitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B5CB3F815E0E57E00E05BD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B5CB3DA15E0E57E00E05BD7 /* Qkit */;
+			targetProxy = 4B5CB3F715E0E57E00E05BD7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B5CB3E715E0E57E00E05BD7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B5CB3E815E0E57E00E05BD7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4B5CB3FD15E0E57E00E05BD7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B5CB3FE15E0E57E00E05BD7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B5CB40315E0E57E00E05BD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4B5CB40415E0E57E00E05BD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4B5CB40615E0E57E00E05BD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Qkit/Qkit-Prefix.pch";
+				INFOPLIST_FILE = "Qkit/Qkit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		4B5CB40715E0E57E00E05BD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Qkit/Qkit-Prefix.pch";
+				INFOPLIST_FILE = "Qkit/Qkit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		4B5CB40915E0E57E00E05BD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Qkit/Qkit-Prefix.pch";
+				INFOPLIST_FILE = "QkitTests/QkitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		4B5CB40A15E0E57E00E05BD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Qkit/Qkit-Prefix.pch";
+				INFOPLIST_FILE = "QkitTests/QkitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B5CB3D415E0E57E00E05BD7 /* Build configuration list for PBXProject "Qkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B5CB40315E0E57E00E05BD7 /* Debug */,
+				4B5CB40415E0E57E00E05BD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B5CB40515E0E57E00E05BD7 /* Build configuration list for PBXNativeTarget "Qkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B5CB40615E0E57E00E05BD7 /* Debug */,
+				4B5CB40715E0E57E00E05BD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4B5CB40815E0E57E00E05BD7 /* Build configuration list for PBXNativeTarget "QkitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B5CB40915E0E57E00E05BD7 /* Debug */,
+				4B5CB40A15E0E57E00E05BD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B5CB3D115E0E57E00E05BD7 /* Project object */;
+}

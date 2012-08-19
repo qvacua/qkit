@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Qkit' target in the 'Qkit' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
