@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1929B1CD146E7F97AC3E29E8 /* NSArray+Q.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929B2947CD50A9ACCE43B1A /* NSArray+Q.m */; };
+		1929B4332AEFE8AC57CC74CA /* NSDictionary+Q.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929B72258BE694D60759986 /* NSDictionary+Q.m */; };
+		1929B465B92DCF017726707E /* NSDictionary+Q.h in Headers */ = {isa = PBXBuildFile; fileRef = 1929BA1113296331B59243D5 /* NSDictionary+Q.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1929B54E39E2BF9957867724 /* NSDictionary+Q.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929B72258BE694D60759986 /* NSDictionary+Q.m */; };
+		1929B58C12DD51CD5179D31D /* NSArray+Q.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929B2947CD50A9ACCE43B1A /* NSArray+Q.m */; };
+		1929B63EC828C235DC44AA71 /* NSArray+Q.h in Headers */ = {isa = PBXBuildFile; fileRef = 1929B66FEEDC9F362C6B5E80 /* NSArray+Q.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1929B86B619C52F4DC9BDAF4 /* NSDictionary+Q.h in Headers */ = {isa = PBXBuildFile; fileRef = 1929BA1113296331B59243D5 /* NSDictionary+Q.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1929B9B4159A5570AEA0E50B /* NSDictionary+Q.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929B72258BE694D60759986 /* NSDictionary+Q.m */; };
+		1929BE1F2F5B53E8EDA17F15 /* NSArray+Q.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929B2947CD50A9ACCE43B1A /* NSArray+Q.m */; };
+		1929BFE50FFB244A3CDA95B6 /* NSArray+Q.h in Headers */ = {isa = PBXBuildFile; fileRef = 1929B66FEEDC9F362C6B5E80 /* NSArray+Q.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4B5CB3DF15E0E57E00E05BD7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B5CB3DE15E0E57E00E05BD7 /* Cocoa.framework */; };
 		4B5CB3E915E0E57E00E05BD7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B5CB3E715E0E57E00E05BD7 /* InfoPlist.strings */; };
 		4B5CB3F615E0E57E00E05BD7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B5CB3DE15E0E57E00E05BD7 /* Cocoa.framework */; };
@@ -75,6 +85,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1929B2947CD50A9ACCE43B1A /* NSArray+Q.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Q.m"; sourceTree = "<group>"; };
+		1929B66FEEDC9F362C6B5E80 /* NSArray+Q.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Q.h"; sourceTree = "<group>"; };
+		1929B72258BE694D60759986 /* NSDictionary+Q.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Q.m"; sourceTree = "<group>"; };
+		1929BA1113296331B59243D5 /* NSDictionary+Q.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Q.h"; sourceTree = "<group>"; };
 		4B5CB3DB15E0E57E00E05BD7 /* Qkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Qkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B5CB3DE15E0E57E00E05BD7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		4B5CB3E615E0E57E00E05BD7 /* Qkit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Qkit-Info.plist"; sourceTree = "<group>"; };
@@ -194,6 +208,10 @@
 		1929BF11F32AAC865500598B /* Cocoa Categories */ = {
 			isa = PBXGroup;
 			children = (
+				1929BA1113296331B59243D5 /* NSDictionary+Q.h */,
+				1929B72258BE694D60759986 /* NSDictionary+Q.m */,
+				1929B66FEEDC9F362C6B5E80 /* NSArray+Q.h */,
+				1929B2947CD50A9ACCE43B1A /* NSArray+Q.m */,
 				4B5CB44E15E0EA4500E05BD7 /* NSImage+Q.h */,
 				4B5CB45515E0EA4500E05BD7 /* NSMutableArray+Q.h */,
 				4B5CB45015E0EA4500E05BD7 /* NSAttributedString+Q.h */,
@@ -349,6 +367,8 @@
 				4B5CB45615E0EA4500E05BD7 /* NSImage+Q.h in Headers */,
 				4B5CB45915E0EA4500E05BD7 /* NSAttributedString+Q.h in Headers */,
 				4B5CB45E15E0EA4500E05BD7 /* NSString+Q.h in Headers */,
+				1929B63EC828C235DC44AA71 /* NSArray+Q.h in Headers */,
+				1929B86B619C52F4DC9BDAF4 /* NSDictionary+Q.h in Headers */,
 				4B5CB46615E0EAE800E05BD7 /* QShadowedView.h in Headers */,
 				4B5CB46115E0EA4500E05BD7 /* NSMutableArray+Q.h in Headers */,
 				4B5CB43C15E0E7A700E05BD7 /* QObservedObject.h in Headers */,
@@ -360,6 +380,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B5CB52E15E107A700E05BD7 /* QTestKit.h in Headers */,
+				1929BFE50FFB244A3CDA95B6 /* NSArray+Q.h in Headers */,
+				1929B465B92DCF017726707E /* NSDictionary+Q.h in Headers */,
 				4B5CB51E15E1076B00E05BD7 /* ArgumentCaptor.h in Headers */,
 				4B5CB52115E1076B00E05BD7 /* DictionaryMatchers.h in Headers */,
 				4B5CB52415E1076B00E05BD7 /* NSObject+Reflection.h in Headers */,
@@ -507,6 +529,8 @@
 				4B5CB45C15E0EA4500E05BD7 /* NSString+Q.m in Sources */,
 				4B5CB45F15E0EA4500E05BD7 /* NSMutableArray+Q.m in Sources */,
 				4B5CB46415E0EAE800E05BD7 /* QShadowedView.m in Sources */,
+				1929B1CD146E7F97AC3E29E8 /* NSArray+Q.m in Sources */,
+				1929B4332AEFE8AC57CC74CA /* NSDictionary+Q.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -534,6 +558,8 @@
 				4B5CB52515E1076B00E05BD7 /* NSObject+Reflection.m in Sources */,
 				4B5CB52815E1076B00E05BD7 /* NumberMatchers.m in Sources */,
 				4B5CB57F15E1106A00E05BD7 /* QBaseTestCase.m in Sources */,
+				1929BE1F2F5B53E8EDA17F15 /* NSArray+Q.m in Sources */,
+				1929B9B4159A5570AEA0E50B /* NSDictionary+Q.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -545,6 +571,8 @@
 				4B5CB52315E1076B00E05BD7 /* DictionaryMatchers.m in Sources */,
 				4B5CB52615E1076B00E05BD7 /* NSObject+Reflection.m in Sources */,
 				4B5CB52915E1076B00E05BD7 /* NumberMatchers.m in Sources */,
+				1929B58C12DD51CD5179D31D /* NSArray+Q.m in Sources */,
+				1929B54E39E2BF9957867724 /* NSDictionary+Q.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
