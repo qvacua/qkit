@@ -17,8 +17,8 @@
 		1929B86B619C52F4DC9BDAF4 /* NSDictionary+Q.h in Headers */ = {isa = PBXBuildFile; fileRef = 1929BA1113296331B59243D5 /* NSDictionary+Q.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1929B9B4159A5570AEA0E50B /* NSDictionary+Q.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929B72258BE694D60759986 /* NSDictionary+Q.m */; };
 		1929BE1F2F5B53E8EDA17F15 /* NSArray+Q.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929B2947CD50A9ACCE43B1A /* NSArray+Q.m */; };
-		1929BE81EF03C3D1ABA96F4B /* HCValueAssert.h in Headers */ = {isa = PBXBuildFile; fileRef = 1929B556E31CA269B000DC15 /* HCValueAssert.h */; };
-		1929BF86180DDD6159BC2091 /* HCValueMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 1929BE24A6C0DE22E772DD6A /* HCValueMatcher.h */; };
+		1929BE81EF03C3D1ABA96F4B /* HCValueAssert.h in Headers */ = {isa = PBXBuildFile; fileRef = 1929B556E31CA269B000DC15 /* HCValueAssert.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1929BF86180DDD6159BC2091 /* HCValueMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 1929BE24A6C0DE22E772DD6A /* HCValueMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1929BFE50FFB244A3CDA95B6 /* NSArray+Q.h in Headers */ = {isa = PBXBuildFile; fileRef = 1929B66FEEDC9F362C6B5E80 /* NSArray+Q.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4B5CB3DF15E0E57E00E05BD7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B5CB3DE15E0E57E00E05BD7 /* Cocoa.framework */; };
 		4B5CB3E915E0E57E00E05BD7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B5CB3E715E0E57E00E05BD7 /* InfoPlist.strings */; };
@@ -393,11 +393,11 @@
 				1929BFE50FFB244A3CDA95B6 /* NSArray+Q.h in Headers */,
 				1929B465B92DCF017726707E /* NSDictionary+Q.h in Headers */,
 				4B5CB51E15E1076B00E05BD7 /* ArgumentCaptor.h in Headers */,
+				1929BE81EF03C3D1ABA96F4B /* HCValueAssert.h in Headers */,
+				1929BF86180DDD6159BC2091 /* HCValueMatcher.h in Headers */,
 				4B5CB52115E1076B00E05BD7 /* DictionaryMatchers.h in Headers */,
 				4B5CB52415E1076B00E05BD7 /* NSObject+Reflection.h in Headers */,
 				4B5CB52715E1076B00E05BD7 /* NumberMatchers.h in Headers */,
-				1929BE81EF03C3D1ABA96F4B /* HCValueAssert.h in Headers */,
-				1929BF86180DDD6159BC2091 /* HCValueMatcher.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -685,11 +685,11 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_SEARCH_PATHS = "/Library/Frameworks/**";
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Qkit/Qkit-Prefix.pch";
 				INFOPLIST_FILE = "Qkit/Qkit-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = framework;
 			};
@@ -701,11 +701,11 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_SEARCH_PATHS = "/Library/Frameworks/**";
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Qkit/Qkit-Prefix.pch";
 				INFOPLIST_FILE = "Qkit/Qkit-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = framework;
 			};
@@ -750,15 +750,12 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
-					"\"/Library/Frameworks\"",
-				);
+				FRAMEWORK_SEARCH_PATHS = /Library/Frameworks;
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QTestKit/QTestKit-Prefix.pch";
 				INFOPLIST_FILE = "QTestKit/QTestKit-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx10.7;
@@ -772,15 +769,12 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
-					"\"/Library/Frameworks\"",
-				);
+				FRAMEWORK_SEARCH_PATHS = /Library/Frameworks;
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QTestKit/QTestKit-Prefix.pch";
 				INFOPLIST_FILE = "QTestKit/QTestKit-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx10.7;
