@@ -10,3 +10,6 @@
 #import "DictionaryMatchers.h"
 #import "NSObject+Reflection.h"
 #import "NumberMatchers.h"
+#import "HCValueMatcher.h"
+
+#import "HCValueAssert.h"

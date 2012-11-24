@@ -2,10 +2,6 @@
 #import <OCMockito/OCMockito.h>
 #import "NSObject+Reflection.h"
 
-@interface MKTClassMock (Reflection)
-@property(nonatomic, assign) Class mockedClass;
-@end
-
 static BOOL iterateViaClass(Ivar *ivars, unsigned int ivarCount, Class objectClass, void (^processor)(Ivar)) {
 
     unsigned int foundRelevantIvar = 0;
@@ -100,7 +96,7 @@ static BOOL iterateViaProtocol(Ivar *ivars, unsigned int ivarCount, Protocol *ob
 static void wireWithViaClass(id target, id object) {
     Class objectClass = [object class];
 
-    if (objectClass == [MKTClassMock class]) {
+    if (objectClass == [MKTObjectMock class]) {
         objectClass = [object mockedClass];
     }
 

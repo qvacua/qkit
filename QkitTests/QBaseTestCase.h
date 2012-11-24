@@ -9,6 +9,8 @@
 
 #import "NumberMatchers.h"
 #import "DictionaryMatchers.h"
+#import "HCValueAssert.h"
+#import "HCValueMatcher.h"
 
 #import "ArgumentCaptor.h"
 

@@ -11,11 +11,14 @@
 		1929B4332AEFE8AC57CC74CA /* NSDictionary+Q.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929B72258BE694D60759986 /* NSDictionary+Q.m */; };
 		1929B465B92DCF017726707E /* NSDictionary+Q.h in Headers */ = {isa = PBXBuildFile; fileRef = 1929BA1113296331B59243D5 /* NSDictionary+Q.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1929B54E39E2BF9957867724 /* NSDictionary+Q.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929B72258BE694D60759986 /* NSDictionary+Q.m */; };
+		1929B5583FC4656A48ED754E /* HCValueMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929B0AEBD8D326A487FF9B5 /* HCValueMatcher.m */; };
 		1929B58C12DD51CD5179D31D /* NSArray+Q.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929B2947CD50A9ACCE43B1A /* NSArray+Q.m */; };
 		1929B63EC828C235DC44AA71 /* NSArray+Q.h in Headers */ = {isa = PBXBuildFile; fileRef = 1929B66FEEDC9F362C6B5E80 /* NSArray+Q.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1929B86B619C52F4DC9BDAF4 /* NSDictionary+Q.h in Headers */ = {isa = PBXBuildFile; fileRef = 1929BA1113296331B59243D5 /* NSDictionary+Q.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1929B9B4159A5570AEA0E50B /* NSDictionary+Q.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929B72258BE694D60759986 /* NSDictionary+Q.m */; };
 		1929BE1F2F5B53E8EDA17F15 /* NSArray+Q.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929B2947CD50A9ACCE43B1A /* NSArray+Q.m */; };
+		1929BE81EF03C3D1ABA96F4B /* HCValueAssert.h in Headers */ = {isa = PBXBuildFile; fileRef = 1929B556E31CA269B000DC15 /* HCValueAssert.h */; };
+		1929BF86180DDD6159BC2091 /* HCValueMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 1929BE24A6C0DE22E772DD6A /* HCValueMatcher.h */; };
 		1929BFE50FFB244A3CDA95B6 /* NSArray+Q.h in Headers */ = {isa = PBXBuildFile; fileRef = 1929B66FEEDC9F362C6B5E80 /* NSArray+Q.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4B5CB3DF15E0E57E00E05BD7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B5CB3DE15E0E57E00E05BD7 /* Cocoa.framework */; };
 		4B5CB3E915E0E57E00E05BD7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B5CB3E715E0E57E00E05BD7 /* InfoPlist.strings */; };
@@ -72,6 +75,7 @@
 		4B5CB53115E107EE00E05BD7 /* OCMockito.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B5CB4C015E0F04700E05BD7 /* OCMockito.framework */; };
 		4B5CB57F15E1106A00E05BD7 /* QBaseTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5CB57E15E1106A00E05BD7 /* QBaseTestCase.m */; };
 		4B5CB67715E11DD600E05BD7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B5CB3F415E0E57E00E05BD7 /* SenTestingKit.framework */; };
+		4BAF1A091661146B00A1B46C /* HCValueMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929B0AEBD8D326A487FF9B5 /* HCValueMatcher.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,10 +89,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1929B0AEBD8D326A487FF9B5 /* HCValueMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCValueMatcher.m; sourceTree = "<group>"; };
 		1929B2947CD50A9ACCE43B1A /* NSArray+Q.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Q.m"; sourceTree = "<group>"; };
+		1929B556E31CA269B000DC15 /* HCValueAssert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCValueAssert.h; sourceTree = "<group>"; };
 		1929B66FEEDC9F362C6B5E80 /* NSArray+Q.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Q.h"; sourceTree = "<group>"; };
 		1929B72258BE694D60759986 /* NSDictionary+Q.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Q.m"; sourceTree = "<group>"; };
 		1929BA1113296331B59243D5 /* NSDictionary+Q.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Q.h"; sourceTree = "<group>"; };
+		1929BE24A6C0DE22E772DD6A /* HCValueMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCValueMatcher.h; sourceTree = "<group>"; };
 		4B5CB3DB15E0E57E00E05BD7 /* Qkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Qkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B5CB3DE15E0E57E00E05BD7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		4B5CB3E615E0E57E00E05BD7 /* Qkit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Qkit-Info.plist"; sourceTree = "<group>"; };
@@ -340,6 +347,9 @@
 				4B5CB51A15E1076B00E05BD7 /* NumberMatchers.h */,
 				4B5CB51B15E1076B00E05BD7 /* NumberMatchers.m */,
 				4B5CB4FF15E1069400E05BD7 /* Supporting Files */,
+				1929B556E31CA269B000DC15 /* HCValueAssert.h */,
+				1929BE24A6C0DE22E772DD6A /* HCValueMatcher.h */,
+				1929B0AEBD8D326A487FF9B5 /* HCValueMatcher.m */,
 			);
 			path = QTestKit;
 			sourceTree = "<group>";
@@ -386,6 +396,8 @@
 				4B5CB52115E1076B00E05BD7 /* DictionaryMatchers.h in Headers */,
 				4B5CB52415E1076B00E05BD7 /* NSObject+Reflection.h in Headers */,
 				4B5CB52715E1076B00E05BD7 /* NumberMatchers.h in Headers */,
+				1929BE81EF03C3D1ABA96F4B /* HCValueAssert.h in Headers */,
+				1929BF86180DDD6159BC2091 /* HCValueMatcher.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -538,6 +550,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BAF1A091661146B00A1B46C /* HCValueMatcher.m in Sources */,
 				4B5CB43B15E0E7A700E05BD7 /* QObservedObject.m in Sources */,
 				4B5CB45815E0EA4500E05BD7 /* NSImage+Q.m in Sources */,
 				4B5CB45B15E0EA4500E05BD7 /* NSAttributedString+Q.m in Sources */,
@@ -573,6 +586,7 @@
 				4B5CB52915E1076B00E05BD7 /* NumberMatchers.m in Sources */,
 				1929B58C12DD51CD5179D31D /* NSArray+Q.m in Sources */,
 				1929B54E39E2BF9957867724 /* NSDictionary+Q.m in Sources */,
+				1929B5583FC4656A48ED754E /* HCValueMatcher.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
