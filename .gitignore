@@ -4,5 +4,7 @@ test-reports
 .idea
 Externals/*
 *.swp
-UserInterfaceState.xcuserstate
+*.xcuserstate
+xcuserdata
+
 
