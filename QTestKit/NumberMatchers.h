@@ -4,6 +4,9 @@
 #define isTrue equalToBool(YES)
 #define isFalse equalToBool(NO)
 
+#define isYes is(@(YES))
+#define isNo is(@(NO))
+
 typedef enum {
     LESS = -1,
     GREATER = 1
