@@ -15,15 +15,23 @@
     return self;
 }
 
-- (BOOL)isEqual:(id)object {
-    if (![object isKindOfClass:[QObserverInfo class]]) {
+- (BOOL)isEqual:(QObserverInfo *)info {
+    if (info == self) {
+        return YES;
+    }
+
+    if (!info || ![info isKindOfClass:[self class]]) {
         return NO;
     }
 
-    QObserverInfo *info = (QObserverInfo *)object;
+    return info.observer == _observer && [info.keyPath isEqualToString:_keyPath];
+}
 
-    return info.observer == _observer
-            && [info.keyPath isEqualToString:_keyPath];
+- (NSUInteger)hash {
+    NSUInteger hash = [self.observer hash];
+    hash = hash * 31u + [self.keyPath hash];
+
+    return hash;
 }
 
 - (BOOL)isEqualTo:(id)object {
