@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		1929B1CD146E7F97AC3E29E8 /* NSArray+Q.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929B2947CD50A9ACCE43B1A /* NSArray+Q.m */; };
+		1929B1E4A63E04D6996D5A69 /* NSMenuItem+Q.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929B0779B98F97B88C6EF13 /* NSMenuItem+Q.m */; };
 		1929B4332AEFE8AC57CC74CA /* NSDictionary+Q.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929B72258BE694D60759986 /* NSDictionary+Q.m */; };
 		1929B465B92DCF017726707E /* NSDictionary+Q.h in Headers */ = {isa = PBXBuildFile; fileRef = 1929BA1113296331B59243D5 /* NSDictionary+Q.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1929B54E39E2BF9957867724 /* NSDictionary+Q.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929B72258BE694D60759986 /* NSDictionary+Q.m */; };
 		1929B5583FC4656A48ED754E /* HCValueMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929B0AEBD8D326A487FF9B5 /* HCValueMatcher.m */; };
+		1929B55C8C6A966CD6221BBA /* NSMenuItem+Q.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929B0779B98F97B88C6EF13 /* NSMenuItem+Q.m */; };
 		1929B58C12DD51CD5179D31D /* NSArray+Q.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929B2947CD50A9ACCE43B1A /* NSArray+Q.m */; };
 		1929B63EC828C235DC44AA71 /* NSArray+Q.h in Headers */ = {isa = PBXBuildFile; fileRef = 1929B66FEEDC9F362C6B5E80 /* NSArray+Q.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1929B7F55122A7BE66335B95 /* NSMenuItemCategoryTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929B67A394A5430B700C422 /* NSMenuItemCategoryTest.m */; };
 		1929B86B619C52F4DC9BDAF4 /* NSDictionary+Q.h in Headers */ = {isa = PBXBuildFile; fileRef = 1929BA1113296331B59243D5 /* NSDictionary+Q.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1929B92E997B1B4D8390CA68 /* NSMenuItem+Q.h in Headers */ = {isa = PBXBuildFile; fileRef = 1929BC08DBFDA5268179CCFC /* NSMenuItem+Q.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1929B9B4159A5570AEA0E50B /* NSDictionary+Q.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929B72258BE694D60759986 /* NSDictionary+Q.m */; };
 		1929BE1F2F5B53E8EDA17F15 /* NSArray+Q.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929B2947CD50A9ACCE43B1A /* NSArray+Q.m */; };
 		1929BE81EF03C3D1ABA96F4B /* HCValueAssert.h in Headers */ = {isa = PBXBuildFile; fileRef = 1929B556E31CA269B000DC15 /* HCValueAssert.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -79,6 +83,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		4B3EB46F16E53E1400374A8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B5CB3D115E0E57E00E05BD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B5CB4F715E1069400E05BD7;
+			remoteInfo = QTestKit;
+		};
 		4B5CB3F715E0E57E00E05BD7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4B5CB3D115E0E57E00E05BD7 /* Project object */;
@@ -89,12 +100,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1929B0779B98F97B88C6EF13 /* NSMenuItem+Q.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMenuItem+Q.m"; sourceTree = "<group>"; };
 		1929B0AEBD8D326A487FF9B5 /* HCValueMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCValueMatcher.m; sourceTree = "<group>"; };
 		1929B2947CD50A9ACCE43B1A /* NSArray+Q.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Q.m"; sourceTree = "<group>"; };
 		1929B556E31CA269B000DC15 /* HCValueAssert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCValueAssert.h; sourceTree = "<group>"; };
 		1929B66FEEDC9F362C6B5E80 /* NSArray+Q.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Q.h"; sourceTree = "<group>"; };
+		1929B67A394A5430B700C422 /* NSMenuItemCategoryTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSMenuItemCategoryTest.m; sourceTree = "<group>"; };
 		1929B72258BE694D60759986 /* NSDictionary+Q.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Q.m"; sourceTree = "<group>"; };
 		1929BA1113296331B59243D5 /* NSDictionary+Q.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Q.h"; sourceTree = "<group>"; };
+		1929BC08DBFDA5268179CCFC /* NSMenuItem+Q.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMenuItem+Q.h"; sourceTree = "<group>"; };
 		1929BE24A6C0DE22E772DD6A /* HCValueMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCValueMatcher.h; sourceTree = "<group>"; };
 		4B5CB3DB15E0E57E00E05BD7 /* Qkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Qkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B5CB3DE15E0E57E00E05BD7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -227,6 +241,8 @@
 				4B5CB45115E0EA4500E05BD7 /* NSAttributedString+Q.m */,
 				4B5CB45215E0EA4500E05BD7 /* NSString+Q.m */,
 				4B5CB45415E0EA4500E05BD7 /* NSMutableArray+Q.m */,
+				1929B0779B98F97B88C6EF13 /* NSMenuItem+Q.m */,
+				1929BC08DBFDA5268179CCFC /* NSMenuItem+Q.h */,
 			);
 			path = "Cocoa Categories";
 			sourceTree = "<group>";
@@ -301,6 +317,7 @@
 				4B5CB4A915E0EED200E05BD7 /* DummyObserver.m */,
 				4B5CB4AA15E0EED200E05BD7 /* DummyObserver.h */,
 				4B5CB3FB15E0E57E00E05BD7 /* Supporting Files */,
+				1929B67A394A5430B700C422 /* NSMenuItemCategoryTest.m */,
 			);
 			path = QkitTests;
 			sourceTree = "<group>";
@@ -380,6 +397,7 @@
 				1929B63EC828C235DC44AA71 /* NSArray+Q.h in Headers */,
 				1929B86B619C52F4DC9BDAF4 /* NSDictionary+Q.h in Headers */,
 				4B5CB46615E0EAE800E05BD7 /* QShadowedView.h in Headers */,
+				1929B92E997B1B4D8390CA68 /* NSMenuItem+Q.h in Headers */,
 				4B5CB46115E0EA4500E05BD7 /* NSMutableArray+Q.h in Headers */,
 				4B5CB43C15E0E7A700E05BD7 /* QObservedObject.h in Headers */,
 			);
@@ -434,6 +452,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				4B3EB47016E53E1400374A8D /* PBXTargetDependency */,
 				4B5CB3F815E0E57E00E05BD7 /* PBXTargetDependency */,
 			);
 			name = QkitTests;
@@ -543,6 +562,7 @@
 				4B5CB46415E0EAE800E05BD7 /* QShadowedView.m in Sources */,
 				1929B1CD146E7F97AC3E29E8 /* NSArray+Q.m in Sources */,
 				1929B4332AEFE8AC57CC74CA /* NSDictionary+Q.m in Sources */,
+				1929B1E4A63E04D6996D5A69 /* NSMenuItem+Q.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -573,6 +593,8 @@
 				4B5CB57F15E1106A00E05BD7 /* QBaseTestCase.m in Sources */,
 				1929BE1F2F5B53E8EDA17F15 /* NSArray+Q.m in Sources */,
 				1929B9B4159A5570AEA0E50B /* NSDictionary+Q.m in Sources */,
+				1929B55C8C6A966CD6221BBA /* NSMenuItem+Q.m in Sources */,
+				1929B7F55122A7BE66335B95 /* NSMenuItemCategoryTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -593,6 +615,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		4B3EB47016E53E1400374A8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B5CB4F715E1069400E05BD7 /* QTestKit */;
+			targetProxy = 4B3EB46F16E53E1400374A8D /* PBXContainerItemProxy */;
+		};
 		4B5CB3F815E0E57E00E05BD7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 4B5CB3DA15E0E57E00E05BD7 /* Qkit */;

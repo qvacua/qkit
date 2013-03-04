@@ -17,3 +17,4 @@
 #import "QShadowedView.h"
 #import "NSArray+Q.h"
 #import "NSDictionary+Q.h"
+#import "NSMenuItem+Q.h"
