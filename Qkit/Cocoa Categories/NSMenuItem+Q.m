@@ -16,6 +16,13 @@ static char * const qBlockActionKey = "BlockActionKey";
 - (void)setBlockAction:(void (^)(id))block {
     objc_setAssociatedObject(self, qBlockActionKey, nil, OBJC_ASSOCIATION_RETAIN);
 
+    if (block == nil) {
+        [self setTarget:nil];
+        [self setAction:NULL];
+
+        return;
+    }
+
     objc_setAssociatedObject(self, qBlockActionKey, block, OBJC_ASSOCIATION_RETAIN);
     [self setTarget:self];
     [self setAction:@selector(blockActionWrapper:)];
